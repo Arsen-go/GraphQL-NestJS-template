@@ -1,0 +1,15 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# Tests
+/coverage
+/.nyc_output
+
+# dotenv environment variable files
+.env
+.env.development.local
+
+ec2-deploy-back-end.sh
+ec2-deploy-front-end.sh

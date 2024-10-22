@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@Constants/*": [
+        "src/constants/*"
+      ],
+      "@DatabaseModels/*": [
+        "src/database/models/*"
+      ],
+      "@Database/*": [
+        "src/database/*"
+      ],
+      "@Exception/*": [
+        "src/exceptions/*"
+      ],
+      "@Middlewares/*": [
+        "src/middlewares/*"
+      ],
+      "@Decorators/*": [
+        "src/decorators/*"
+      ],
+      "@Guards/*": [
+        "src/guards/*"
+      ],
+      "@Inputs/*": [
+        "src/inputs/*"
+      ],
+      "@Interceptors/*": [
+        "src/interceptors/*"
+      ],
+      "@Modules/*": [
+        "src/modules/*"
+      ],
+      "@Utils/*": [
+        "src/utils/*"
+      ],
+      "@Shared/*": [
+        "src/shared/*"
+      ],
+    }
+  }
+}
