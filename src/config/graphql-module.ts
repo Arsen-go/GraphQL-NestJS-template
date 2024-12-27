@@ -1,11 +1,12 @@
+import { ApolloDriver } from '@nestjs/apollo';
+import { GqlModuleAsyncOptions } from '@nestjs/graphql';
 import * as depthLimit from 'graphql-depth-limit';
 
-import { ApolloDriver } from '@nestjs/apollo';
-import { ComplexityPlugin } from '@/plugins/complexity.plugin';
-import { CustomPlayGround } from '@/constants/playground';
-import { FormatError } from '@/utils/format-gql-error';
-import { GqlModuleAsyncOptions } from '@nestjs/graphql';
 import Modules from '@Modules/index';
+import { FormatError } from '@Utils/format-gql-error';
+import { CustomPlayGround } from '@Constants/playground';
+
+import { ComplexityPlugin } from '@/plugins/complexity.plugin';
 
 export const GraphQlConfig: GqlModuleAsyncOptions = {
   driver: ApolloDriver, // Specifies the ApolloDriver for GraphQL
