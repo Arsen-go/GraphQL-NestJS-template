@@ -1,8 +1,8 @@
 {
-  "name": "ideascale_ai",
+  "name": "nest-graphql-template-arsen",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "arsen",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
