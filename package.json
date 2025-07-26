@@ -24,7 +24,7 @@
     "seed:undo:all": "npx sequelize-cli db:seed:undo:all"
   },
   "dependencies": {
-    "@apollo/server": "^4.11.0",
+    "@apollo/server": "^5.0.0",
     "@langchain/community": "^0.2.32",
     "@langchain/core": "^0.2.31",
     "@langchain/ollama": "^0.0.4",
