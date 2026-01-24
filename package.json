@@ -51,7 +51,7 @@
     "graphql-query-complexity": "^1.0.0",
     "graphql-type-json": "^0.3.2",
     "helmet": "^7.1.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "memory-cache": "^0.2.0",
     "pg": "^8.12.0",
     "pg-hstore": "^2.3.4",
